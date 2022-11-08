@@ -1,43 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clothes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+     <link rel="stylesheet" href="grid_style.css">
 
-<link rel="stylesheet" type="text/css" href="grid_style.css">
+      <style>
+  body {
+    background-color: #D9B777;
+    margin: 0 10%;
+    font-family: sans-serif;
+    }
+  h1 {
+    font-family: dosis;
+    font-weight: bold;
+    text-transform: none;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+  }
+  h2 {
+    color: #d1633c;
+    font-size: 2em;
+    font-family: anton;
+    font-weight: normal;
+  }
+    p {
+  border: 2px solid red;
+  padding: 30px;
+}
+    
+</style>
 
-</head>
+     </head>
 
 <body>
 
-<div class="wrapper">
-  <div id="item1">
-  	<p id="about">One of my hobbies is thrifting and reconstructing clothes. I also like to repurpose pieces. Here is some of my work</p>
+<div class="container">
+  <div class="About">
+<p>One of my hobbies is thrifting and reconstructing clothes. I also like to repurpose pieces. Here is some of my work</p>
   </div>
-  <div id="item2">
-  		<iframe id="video1" src="https://player.vimeo.com/video/710573898?h=d89f487ed7" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  <div class="video1">
+<iframe id="video1" src="https://player.vimeo.com/video/710573898?h=d89f487ed7" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
   </div>
-  <div id="item3">
-<div id="video2" style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710573234?h=027f17d455&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="a0ad1d9c3139470ef7991793f480c19e"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
-  <div id="item4">
-  	<div id="video3" style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/710572729?h=3c44450cf5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="d895570ea4d346f1909f1303f2bf6f48"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-  </div> 
-<div id="item5">
-	<ul class="flex-container column-reverse">
-  <li class="flex-item"><img id="picture"src="clothes/IMGF.jpg"></li>
-  <li class="flex-item"><img id="picture"src="clothes/IMGL.jpg"></li>
-  <li class="flex-item"><img id="picture"src="clothes/IMGM.jpg"></li>
-  <li class="flex-item"><img id="picture"src="clothes/IMGN.jpg"></li>
+  <div class="video2">
+<iframe src="https://player.vimeo.com/video/710572729?h=3c44450cf5&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="720" height="1280" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="d895570ea4d346f1909f1303f2bf6f48"></iframe>
+  </div>
+  <div class="image1"> <img src="IMGF.jpg" width="50%" height="auto" alt ="Clothing image 1">
+  </div>
+  <div class="image2"> <img src="IMGL.jpg" width="50%" height="auto" alt ="Clothing image 1">
+  </div>
+  <div class="image3"> <img src="IMGN.jpg" width="50%" height="auto" alt ="Clothing image 1">
 
-</ul>
+  </div>
 </div>
-</div>
-	<ul>
+
+<ul>
       <li class="nav"><a href="../index.html" class="btn btn-success btn-lg active" role="button" aria-pressed="true">HOME</a></li>
     
   </ul>
+
 </body>
 </html>
