@@ -8,6 +8,16 @@
         src: url("https://fonts.google.com/");
       }
 
+.element {
+  @include float-left;
+}
+.another-element {
+  @include float-right;
+}
+.one-more {
+  @include float-none;
+}
+
 
     h1{
     	font-family: 'Anton';
