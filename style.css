@@ -42,6 +42,14 @@
       width: 80%;
       height: auto;
     }
+
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
     
     .carousel {
   width:640px;
