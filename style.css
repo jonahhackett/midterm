@@ -1,0 +1,42 @@
+     @font-face{
+        font-family:  "Anton";
+        src: url("https://fonts.google.com/");
+      }
+
+       @font-face{
+        font-family:  "Dosis";
+        src: url("https://fonts.google.com/");
+      }
+
+
+    h1{
+    	font-family: 'Anton';
+      color: #A65E4E;
+      text-align: center;
+      font-size:100px;
+      font-weight: bold;
+         
+      
+    }
+    
+    p{
+    	font-family: "Dosis";
+      color: #BF5D54;
+      text-align: center;
+      font-size:50px;
+     }
+    
+    img{
+    	
+      border-radius: 30px;
+      width: 80%;
+      height: auto;
+    }
+    
+    .carousel {
+  width:640px;
+  height:360px;
+}
+
+    
+    
