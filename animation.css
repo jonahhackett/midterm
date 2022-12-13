@@ -1,20 +1,21 @@
 .flower {
-	animation: flower 2s ease 0s infinite normal none;
-}
+	animation: flower 2s ease 0s infinite normal forwards;
+	
+	@keyframes flower {
+	0% {
+		opacity: 1;
+	}
 
-@keyframes flower {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-  
-}
+	50% {
+		opacity: 0.2;
+	}
 
+	100% {
+		opacity: 1;
+	}
+	}
+	
+	
 
 .jonah{
   position: relative;
