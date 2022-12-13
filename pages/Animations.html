@@ -8,21 +8,23 @@
 		<style>
 		
 .flower {
-	position: relative;
-  	margin: 20px 500px;
-  	transition: pulse 1s linear infinite;
-}
-	.jonah:pulse {
-		0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-}
-		100% {
-    -webkit-transform: scale(1);
-   transform: scale(1);
-}
-}
+	animation: flower 2s ease 0s infinite normal forwards;
+	
+	@keyframes flower {
+	0% {
+		opacity: 1;
+	}
 
+	50% {
+		opacity: 0.2;
+	}
+
+	100% {
+		opacity: 1;
+	}
+	}
+	
+	
 
 .jonah{
   position: relative;
